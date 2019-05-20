@@ -1,4 +1,4 @@
-# Common eslint config - for Typescript
+# Create React App ESLint TypeScript config
 
 ## Setup
 

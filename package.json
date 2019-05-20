@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-zegal-ts",
   "version": "1.0.0",
-  "description": "Create React App EsLint typscript config for our frontend apps",
+  "description": "Create React App ESLint TypeScript config for our frontend apps",
   "author": "Adam Tombleson <adam.tombleson@zegal.com>",
   "main": "index.js",
   "repository": {
