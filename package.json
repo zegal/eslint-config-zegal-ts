@@ -1,0 +1,21 @@
+{
+  "name": "eslint-config-zegal-ts",
+  "version": "1.0.0",
+  "description": "Create React App EsLint typscript config for our frontend apps",
+  "author": "Adam Tombleson <adam.tombleson@zegal.com>",
+  "main": "index.js",
+  "repository": {
+    "type": "https",
+    "url": "https://github.com/zegal/eslint-config-zegal-ts.git"
+  },
+  "keywords": [
+    "zegal",
+    "react",
+    "eslint",
+    "eslintconfig"
+  ],
+  "peerDependencies": {
+    "eslint": ">= 3"
+  },
+  "license": "MIT"
+}
