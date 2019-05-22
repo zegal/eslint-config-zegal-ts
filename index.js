@@ -87,7 +87,41 @@ module.exports = {
 		],
 		'space-infix-ops': [
 			'error'
-		]
+		],
+		'@typescript-eslint/explicit-function-return-type': 'off',
+		'react/jsx-filename-extension': [
+			1,
+			{
+				'extensions': [
+					'.js',
+					'.tsx'
+				]
+			}
+		],
+		'react/destructuring-assignment': 0,
+		'jsx-a11y/click-events-have-key-events': 0,
+		'react-hooks/rules-of-hooks': 'error',
+		'react-hooks/exhaustive-deps': 'warn',
+		'@typescript-eslint/no-unused-vars': [
+			'warn',
+			{
+				'args': 'after-used',
+				'argsIgnorePattern': '^_'
+			}
+		],
+		'import/no-extraneous-dependencies': [
+			'error',
+			{
+				'devDependencies': [
+					'**/__tests__/**/*.js',
+					'**/__tests__/**/*.ts',
+					'**/__tests__/**/*.tsx'
+				],
+				'peerDependencies': true
+			}
+		],
+		'import/prefer-default-export': false,
+		'react/button-has-type': 0
 	}
 
 }
