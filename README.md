@@ -3,7 +3,7 @@
 ## Setup
 
 ```
-$ yarn add eslint-config-zegal-ts @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-plugin-react-hooks eslint-config-react-app
+$ yarn add eslint-config-zegal-ts
 ```
 
 ## Usage
