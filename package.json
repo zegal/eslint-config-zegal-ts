@@ -1,8 +1,15 @@
 {
-  "name": "eslint-config-zegal-ts",
-  "version": "1.0.2",
+  "name": "@zegal/eslint-config",
+  "version": "2.0.0",
   "description": "Create React App ESLint TypeScript config for our frontend apps",
   "author": "Adam Tombleson <adam.tombleson@zegal.com>",
+  "maintainers": [
+    "Pomba Magar <pomba.magar@zegal.com>"
+  ],
+  "contributors": [
+    "Pomba Magar <pomba.magar@zegal.com>"
+  ],
+  "private": false,
   "main": "index.js",
   "repository": {
     "type": "https",
@@ -14,8 +21,13 @@
     "eslint",
     "eslintconfig"
   ],
-  "peerDependencies": {
-    "eslint": ">= 3"
+  "dependencies": {
+		"@typescript-eslint/eslint-plugin": "2.18.0",
+		"@typescript-eslint/parser": "2.18.0",
+    "eslint-config-react-app": "5.2.0",
+    "eslint-plugin-react-hooks": "2.3.0",
+    "eslint": "6.8.0",
+    "typescript": "3.7.5"
   },
   "license": "MIT"
 }

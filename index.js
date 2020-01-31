@@ -106,6 +106,6 @@ module.exports = {
         "argsIgnorePattern": "^_"
       }
     ],
-    "import/prefer-default-export": false
+    "import/prefer-default-export": 'off'
   }
 }
