@@ -3,7 +3,7 @@
 ## Setup
 
 ```
-$ yarn add eslint-config-zegal-ts @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-plugin-react-hooks eslint-config-react-app
+$ yarn add eslint-config-zegal-ts
 ```
 
 ## Usage
@@ -18,6 +18,10 @@ Add into package.json:
 
 ## Changelog
 
+2.0.0 - Simplify the way this config is used
+
 1.0.2 - Removed rule for import/no-extraneous-dependencies
+
 1.0.1 - Fixing hooks usage and rule reordering
+
 1.0.0 - Init
