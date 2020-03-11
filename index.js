@@ -34,9 +34,10 @@ module.exports = {
     "no-irregular-whitespace": 1,
     "no-mixed-spaces-and-tabs": 1,
     "quotes": [
-      1,
+      "error",
       "single",
       {
+        "avoidEscape": true,
         "allowTemplateLiterals": true
       }
     ],
@@ -93,6 +94,17 @@ module.exports = {
         ]
       }
     ],
+    "no-restricted-syntax": [
+        "error",
+        {
+          "selector": "CallExpression[callee.object.name='console'][callee.property.name=log]",
+          "message": "Unexpected property on console object was called"
+        }
+      ],
+      "semi": [
+        "error",
+        "always"
+      ],
     "react/destructuring-assignment": 0,
     "react/button-has-type": 0,
     "react-hooks/rules-of-hooks": "error",
